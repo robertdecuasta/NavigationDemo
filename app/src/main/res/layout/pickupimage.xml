@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:gravity="center"
+    android:weightSum="3"
+    android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/button_open_camera"
+        android:background="@mipmap/camera"
+        android:layout_weight="1"
+        android:layout_gravity="center|top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button_open_gallery"
+        android:background="@mipmap/g123"
+        android:layout_width="100dp"
+        android:layout_gravity="center|bottom"
+        android:layout_weight="1"
+        android:layout_height="60dp" />
+
+</LinearLayout>
